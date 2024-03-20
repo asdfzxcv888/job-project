@@ -19,7 +19,7 @@ const Landing = () => {
 
       <div style={{display:'inline-block',marginLeft:'2%'}}>Hi,<p style={{display:'inline-block',color:'#39ff14'}}>Muhammad Azad</p>
       <p>Welcome back</p></div>
-      <img src='https://t-power89.github.io/images/avatar.jpg'></img>
+      <img src='https://t-power89.github.io/images/avatar.jpg' alt='Description of the imags'></img>
       </div>
       
     <div className='main-container' >
