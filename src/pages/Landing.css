@@ -173,8 +173,14 @@
     width:250%;
     border: #ff6ac1 0.1rem solid;
     
+    
   }
 
+  .specialp{
+    opacity: 1; 
+    z-index: 1;
+
+  }
   
 
   .usr-profile img{
