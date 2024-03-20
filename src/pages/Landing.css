@@ -1,0 +1,212 @@
+.main-container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.flex21{
+    width: 48%;
+    margin-right: 0;
+}
+.flex21 select{
+    border: 0.1rem white solid;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.flex21 h3{
+    color: #ff6ac1; /* Neon pink color */
+    text-shadow: 0 0 10px #ff6ac1, 0 0 20px #ff6ac1, 0 0 30px #ff6ac1; /* Neon glow effect */
+}
+
+
+
+
+
+
+.flex22{
+    width: 40%;
+    margin-left: 8%;
+}
+.flex22 div h3{
+    display: inline-block;
+}
+.flex22 div p{
+    display: inline-block;
+    margin: auto;
+    
+}
+.flex22 div {
+    border: 0.1rem #ff6ac1 solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    border-radius: 2px;
+}
+
+
+
+
+.flex3{
+
+    display: flex;
+    margin-top: 2%;
+
+
+}
+
+
+.flex31{
+    margin-left: 2%;
+    width: 38%;
+    background-color: black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+   
+}
+.flex31 div{
+   
+    width: 90%;
+    border: 0.1rem #ff6ac1 solid ;
+    margin-top: 2%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.inner-div h3{
+    display: inline-block;
+}
+
+.mainp{
+    display: inline-block;
+    margin-left: 10%;
+}
+.flex31 span{
+    display: block;
+}
+
+
+.flex32{
+    margin-left: 2%;
+    border: 0.1rem #ff6ac1 solid ;
+    width: 58%;
+    padding: 1%;
+    height: fit-content;
+    background-color: black;
+   
+ 
+}
+.a32container{
+    display: flex;
+    justify-content: flex-end; 
+    flex-wrap: wrap;
+    margin-top: 2%;
+    border: 0.1rem #ff6ac1 solid ;
+    padding: 1%;
+}
+
+.a32container p{
+    display: inline-block;
+  margin: auto;
+   
+    
+
+
+}
+.a32container select{
+    display: inline-block;
+    margin-right: 3%;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    
+
+}
+.btn-holder{
+    display: flex;
+    justify-content: center;
+    border: #ff6ac1 0.1rem solid;
+}
+.btn-holder p{
+    display: inline-block;
+    margin: auto;
+    color: #ff6ac1; /* Neon pink color */
+    text-shadow: 0 0 10px #ff6ac1, 0 0 20px #ff6ac1, 0 0 30px #ff6ac1; /* Neon glow effect */
+    font-size: larger;
+}
+
+.btn-holder p:hover{
+    background-color: #ff6ac1;
+    color: white;
+    
+}
+
+.scrollable-div {
+    width: 100%; /* Set the width of the scrollable div */
+   
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; 
+ 
+  }
+
+ 
+
+  .scrollable-div p{
+    width: 10%; /* Set the width of the scrollable div */
+    display: inline-block;
+ 
+  }
+
+  
+
+  .contain2{
+    display: block;
+   
+    width:250%;
+    border: #ff6ac1 0.1rem solid;
+    
+  }
+
+  
+
+  .usr-profile img{
+    aspect-ratio: 1/1;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .inner-div{
+    background-color: transparent;
+  }
+
+  .inner-div :hover{
+    background-color: #ff6ac1;
+    color: black;
+  }
+  .mainp{
+    color: #ff6ac1; /* Neon pink color */
+    text-shadow: 0 0 10px #ff6ac1, 0 0 20px #ff6ac1, 0 0 30px #ff6ac1; /* Neon glow effect */
+  }
+
+  .semibody {
+    
+    /* height: 100vh; */
+   
+    background: linear-gradient(-45deg, black, purple, black, rgba(63, 63, 169, 0.867), black);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  .semibody {
+    font-family: Calibri, sans-serif;
+    color: white;
+  }
+
+ 

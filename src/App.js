@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Landing from "./pages/Landing";
+import './App.css'
+import React, { useState, useEffect } from 'react';
+import { CiCamera } from "react-icons/ci";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  
+  return (<>
+  <div class="laptop">
+    
+    <div class="screen">
+    <div style={{width:'15%',marginLeft:'42.5%'}} className="camera"><CiCamera style={{marginLeft:'50%'}}></CiCamera></div>
+    <Landing></Landing>
     </div>
+   
+    
+  </div>
+  <div className="bottom"></div>
+  
+    
+
+    
+    
+  
+  </>
+    
+
+      
+     
+    
   );
 }
 

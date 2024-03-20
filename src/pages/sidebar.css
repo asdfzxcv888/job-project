@@ -1,0 +1,78 @@
+button{
+    display: block;
+}
+
+.sidebar{
+    border: 0.1rem solid black;
+    border-color: #ff6ac1; 
+    padding: 2vw;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.events{
+
+    position: relative;
+    border: 0.1rem solid black;
+    border-color: #ff6ac1; 
+    border-radius: 10px;
+}
+
+
+.events h3{
+    color: #ff6ac1; /* Neon pink color */
+    text-shadow: 0 0 10px #ff6ac1, 0 0 20px #ff6ac1, 0 0 30px #ff6ac1; /* Neon glow effect */
+}
+
+
+
+
+.side-button{
+    color: #ff6ac1; /* Neon pink color */
+    text-shadow: 0 0 10px #ff6ac1, 0 0 20px #ff6ac1, 0 0 30px #ff6ac1; /* Neon glow effect */
+    background-color: transparent; /* Transparent background */
+    animation: neonGlow 1.5s ease-in-out infinite alternate; /* Neon glow animation */
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  @keyframes neonGlow {
+    from {
+      text-shadow: 0 0 5px #ff6ac1, 0 0 10px #ff6ac1, 0 0 15px #ff6ac1; /* Initial glow effect */
+    }
+    to {
+      text-shadow: 0 0 10px #ff6ac1, 0 0 20px #ff6ac1, 0 0 30px #ff6ac1; /* Final glow effect */
+    }
+  }
+
+  .out-button{
+    width: 70%;
+    margin-left: 15%;
+    background-color: transparent;
+    color: antiquewhite;
+    margin-top: 2%;
+    border: none;
+  }
+
+.out-button:hover {
+    background-color: white; /* Slightly foggy background color on hover */
+color :black; }
+
+
+
+
+  .sec-div{
+    color: azure;
+  }
+
+  .logout{
+    background-color: black;
+    width: 70%;
+    font-size: larger;
+    font-weight: bolder ;
+    color: white;
+    border-radius: 8px;
+    height: 35px;
+    margin-left: 15%;
+  }
